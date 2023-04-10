@@ -50,7 +50,7 @@
 	<update id="bdContentUpdate" parameterType="com.co.kr.domain.BoardContentDomain">
 		UPDATE xa.board SET
 			bd_seq=#{bdSeq},
-			md_id=#{mbId},
+			mb_id=#{mbId},
 			bd_title=#{bdTitle},
 			bd_content=#{bdContent},
 			bd_update_at=now()
